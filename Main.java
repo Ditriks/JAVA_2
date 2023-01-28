@@ -8,7 +8,7 @@ public class Main {
     {
         int size = 0;
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader
-                ("c:\\Users\\Sapphire\\IdeaProjects\\dz\\stud.txt")))
+                ("c:\\Users\\Sapphire\\IdeaProjects\\dz\\src\\stud.txt")))
         {
             while (bufferedReader.readLine() != null)
             { size += 1; }
@@ -16,7 +16,7 @@ public class Main {
 
         String[] listData = new String[size];
         try (BufferedReader bufferedReader = new BufferedReader
-                (new FileReader("c:\\Users\\Sapphire\\IdeaProjects\\dz\\stud.txt")))
+                (new FileReader("c:\\Users\\Sapphire\\IdeaProjects\\dz\\src\\stud.txt")))
         {
             String str;
             int i = 0;
